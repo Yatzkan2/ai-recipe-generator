@@ -1,0 +1,11 @@
+<%- include('partials/head')  %>
+<div class="container d-flex flex-column align-items-center justify-content-between my-2 p-3">
+    <h1>Recipe generator</h1>
+    <div class="shadow-lg p-3 mb-5 bg-white rounded">
+        <div>
+            <%- recipe %>
+        </div>
+    </div>
+    <a href="/new" class="btn btn-secondary">New recipe</a>
+</div>
+<%- include('partials/footer')  %>
