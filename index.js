@@ -1,11 +1,10 @@
 const { Configuration, OpenAIApi } = require("openai");
-const {API_KEY} = require("./apiKey");
+const {API_KEY} = require("./apiKey");//if you want to try it you should enter your own openAi api key in the "apiKey.js" file
 const path = require('path');
 const express = require("express");
 const app = express();
 const PORT = 3000;
-//const jsdom = require('jsdom');
-//const { JSDOM } = jsdom;
+
 
 
 
